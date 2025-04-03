@@ -1,0 +1,9 @@
+{
+	"name": "kensyoADFsanada",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "690e7c97-30d8-446d-b16f-ffa3a074f9f3",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
