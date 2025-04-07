@@ -1,0 +1,10 @@
+{
+	"name": "Gen2System",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://zstrsanadav2.dfs.core.windows.net/"
+		}
+	}
+}
