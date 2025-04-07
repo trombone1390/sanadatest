@@ -1,0 +1,28 @@
+{
+	"name": "Gen2system",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Gen2System",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ServiceTags_Public_20241125.json",
+				"fileSystem": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "{",
+				"type": "String"
+			}
+		]
+	}
+}
