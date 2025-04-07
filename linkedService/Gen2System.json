@@ -5,6 +5,10 @@
 		"type": "AzureBlobFS",
 		"typeProperties": {
 			"url": "https://zstrsanadav2.dfs.core.windows.net/"
+		},
+		"connectVia": {
+			"referenceName": "SHIRonly",
+			"type": "IntegrationRuntimeReference"
 		}
 	}
 }
