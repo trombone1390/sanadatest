@@ -1,0 +1,7 @@
+{
+	"name": "CosmosDb30",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/471fd2fc-a977-43d3-b857-4efb6eda99a2/resourceGroups/other/providers/Microsoft.DocumentDb/databaseAccounts/cosmossanada",
+		"groupId": "Sql"
+	}
+}
